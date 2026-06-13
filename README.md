@@ -1,5 +1,9 @@
 # Nixtaur
 
+[![Status](https://img.shields.io/badge/status-working-brightgreen)](https://github.com/paxxydevv/NixTaur)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Language: C++](https://img.shields.io/badge/Language-C%2B%2B-blue.svg)](https://cplusplus.com/)
+
 Nixtaur is a tool designed to make fetching AUR and Pacman packages usable in Nix-based operating systems.
 
 It bridges the gap between Arch Linux packaging (AUR / pacman) and Nix environments by allowing users to build and install packages in a more familiar Arch-like workflow.
