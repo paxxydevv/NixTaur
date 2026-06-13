@@ -26,3 +26,4 @@ install: $(TARGET)
 
 clean:
 	rm -rf $(OBJDIR) $(TARGET)
+	echo All Done
