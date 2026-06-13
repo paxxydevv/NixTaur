@@ -24,6 +24,10 @@ Nixtaur aims to:
 - Reduce friction when porting Arch workflows to Nix
 - Allow easier access to the AUR ecosystem and packages/features
 
+## Screenshot
+
+![NixTaur in action](assets/itworksig)
+
 ## Requirements
 
 ### Core Dependencies
