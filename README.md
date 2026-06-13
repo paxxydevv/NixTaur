@@ -26,7 +26,7 @@ Nixtaur aims to:
 
 ## Screenshot
 
-![NixTaur in action](assets/itworksig)
+![NixTaur in action](assets/itworksig.png)
 
 ## Requirements
 
