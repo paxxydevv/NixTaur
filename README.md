@@ -1,24 +1,73 @@
-# NIXTAUR
-# 0.1 INTRODUCTION:
-Hello there, Thank's for checking this repo made by some friends of mine and me i wish you the best.
-# 0.2 INFO:
-Nixtaur is a tool designed to make fetching AUR and PACMAN packages in NIX like operating system's.
-# USAGE
-# 1.1 DEPENDENCIES
-# STEAM-RUN
-# CURL
-# BASH
-# UNZIP
-# PATCH
-# TAR
-# 1.2 OPTIONAL DEPENDENCIES
-# GCC
-# MAKE
-# - Note these 2 packages are only required if you are manually BUILDING this project.
-# 1.3 DOWNLOAD THE LATEST RELEASE OF NIXTAUR IN RELEASE PAGE 
-# 1.4 RUN WITH ./nixtaur --params
-# COMPILING AND BUILDING
-# 2.1 We reccomend compiling packages your self becuase its more safer knowing the source code.
-# 2.2 Install git on your host machine and clone this repo
-# 2.3 In repo root run make with the required tools installed: gcc make
-# 2.4 Wait for the build to finish and thas it
+# Nixtaur
+
+Nixtaur is a tool designed to make fetching AUR and Pacman packages usable in Nix-based operating systems.
+
+It bridges the gap between Arch Linux packaging (AUR / pacman) and Nix environments by allowing users to build and install packages in a more familiar Arch-like workflow.
+
+---
+
+## Features
+
+- Install AUR packages in Nix-like systems
+- Fetch and handle Pacman/AUR package sources
+- Simplifies package building workflows
+- Lightweight CLI tool
+
+---
+
+## Why Nixtaur?
+
+NixOS is powerful, but sometimes lacks direct access to AUR-style packages.
+
+Nixtaur aims to:
+- Reduce friction when porting Arch workflows to Nix
+- Allow easier access to AUR ecosystem
+- Provide a familiar pacman-like experience
+
+---
+
+## Requirements
+
+### Core Dependencies
+- bash
+- curl
+- tar
+- unzip
+- patch
+- steam-run *(if used in your workflow)*
+
+### Optional (for building from source)
+- gcc
+- make
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/<your-username>/nixtaur.git
+cd nixtaur
+Build (optional):
+make
+Run:
+./nixtaur --help
+Usage
+./nixtaur --install <package>
+./nixtaur --search <package>
+./nixtaur --update
+🤝 Contributing
+
+We welcome contributions from anyone interested in improving Nixtaur.
+
+How to contribute
+Fork the repository
+Create a new branch:
+git checkout -b feature/my-feature
+Make your changes
+Test your changes locally
+Commit your changes:
+git commit -m "Add: short description of change"
+Push your branch:
+git push origin feature/my-feature
+Open a Pull Request
