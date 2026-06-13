@@ -17,12 +17,11 @@ It bridges the gap between Arch Linux packaging (AUR / pacman) and Nix environme
 
 ## Why Nixtaur?
 
-NixOS is powerful, but sometimes lacks direct access to AUR-style packages.
+As an nix user its very powerful, But when it comes to AUR packages it loses on alot of chances to be better so thats why we made NIXTAUR!
 
 Nixtaur aims to:
 - Reduce friction when porting Arch workflows to Nix
-- Allow easier access to AUR ecosystem
-- Provide a familiar pacman-like experience
+- Allow easier access to AUR ecosystem, packages, features.
 
 ---
 
@@ -34,7 +33,7 @@ Nixtaur aims to:
 - tar
 - unzip
 - patch
-- steam-run *(if used in your workflow)*
+- steam-run *USED TO REPLACE NIX'S FILESYSTEM*
 
 ### Optional (for building from source)
 - gcc
@@ -44,30 +43,36 @@ Nixtaur aims to:
 
 ## Installation
 
-1. Clone the repository:
+OPTION 1 BUILD FROM THE SOURCE
 
-git clone https://github.com/<your-username>/nixtaur.git
-cd nixtaur
-Build (optional):
+git clone https://github.com/paxxydevv/nixtaur.git
+cd NixTaur
 make
 Run:
 ./nixtaur --help
 Usage
-./nixtaur --install <package>
-./nixtaur --search <package>
-./nixtaur --update
-🤝 Contributing
+
+OPTION 2 ALREADY MADE BINARY
+Install the latest NixTaur build from the release page.
+
+ Contributing
 
 We welcome contributions from anyone interested in improving Nixtaur.
 
 How to contribute
 Fork the repository
 Create a new branch:
-git checkout -b feature/my-feature
+git checkout -b yourfeatureorsoemthing/yourfeature
 Make your changes
-Test your changes locally
+Test your changes locally and make sure it has a reason not some random stuff.
 Commit your changes:
 git commit -m "Add: short description of change"
 Push your branch:
 git push origin feature/my-feature
-Open a Pull Request
+Open a Pull Request and wait for the results!
+
+# NOTES
+Thank's for checking out our project hope you had a nice exprience :)) for private manners you can DM zapporsumidkk on discord.
+Please leave a star if you liked this project.
+
+MIT LICENSE
